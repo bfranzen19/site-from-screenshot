@@ -1,5 +1,83 @@
-.mainContent {
+#mainContent {
   background-color: white;
-  width: 2000px;
+  width: 825px;
   height: 1560px;
+}
+
+#topBar {
+  margin: 0 0 10px 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 75px;
+  position: fixed;
+  border-bottom: solid 1px #dbdbdb;
+}
+
+/* nav bar elements */
+#leftSide {
+  text-align: left;
+  top: 50%;
+}
+
+#searchBar {
+  width: 385px;
+  text-align: center;
+  top: 50%;
+  padding: 3px 10px 3px 26px;
+  color: #262626;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#searchBar form {
+  transform: translateY(125%);
+}
+
+#rightSide {
+  text-align: right;
+  top: 50%;
+}
+
+/* left side of nav bar */
+#instaCameraLink {
+  height: 60px;
+  width: 60px;
+  transform: translateY(2%);
+}
+
+#instaTextLink {
+  height: 60px;
+  width: 150px;
+  transform: translateY(11%);
+}
+
+/* right side of nav bar */
+#compass {
+  height: 24px;
+  width: 24px;
+  text-align: right;
+  transform: translateY(30%);
+  padding: 10px;
+}
+
+#heart {
+  height: 24px;
+  width: 24px;
+  transform: translateY(30%);
+  padding: 10px;
+}
+
+#person {
+  height: 24px;
+  width: 24px;
+  transform: translateY(30%);
+  padding: 10px;
+}
+
+.navBar {
+  display: inline-block;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(15%);
 }
