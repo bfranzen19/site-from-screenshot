@@ -1,10 +1,14 @@
+body {
+  background-color: ghostwhite;
+}
+
 #mainContent {
-  background-color: white;
   width: 825px;
   height: 1560px;
 }
 
 #topBar {
+  background-color: #fff;
   margin: 0 0 10px 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,12 +16,16 @@
   height: 75px;
   position: fixed;
   border-bottom: solid 1px #dbdbdb;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 /* nav bar elements */
 #leftSide {
-  text-align: left;
+  text-align: center;
   top: 50%;
+  margin-left: 40px;
 }
 
 #searchBar {
@@ -41,15 +49,16 @@
 
 /* left side of nav bar */
 #instaCameraLink {
-  height: 60px;
-  width: 60px;
-  transform: translateY(2%);
+  height: 50px;
+  width: 50px;
+  transform: translateY(23%);
 }
 
 #instaTextLink {
-  height: 60px;
-  width: 150px;
-  transform: translateY(11%);
+  height: 50px;
+  width: 125px;
+  padding-right: 10px;
+  transform: translateY(28%);
 }
 
 /* right side of nav bar */
@@ -80,4 +89,126 @@
   justify-content: center;
   top: 50%;
   transform: translateY(15%);
+}
+
+#profilePic {
+  height: 200px;
+  width: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: inline;
+}
+
+#profPic {
+  border-radius: 50%;
+  margin-top: 90px;
+  margin-left: 100px;
+  height: 150px;
+  width: 150px;
+  margin-right: 0;
+  padding: 0;
+  display: inline;
+}
+
+.userInfo {
+  text-align: center;
+  display: inline;
+  margin: 30px;
+}
+
+#userName {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 200;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  padding: 30px;
+  border: 0;
+  position: relative;
+  bottom: 115px;
+  display: inline;
+  color: #262626;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+
+#editProfile {
+  padding: 0 8px;
+  background: 0 0;
+  border-color: #dbdbdb;
+  color: #262626;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  outline: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline;
+  position: relative;
+  bottom: 120px;
+  height: 30px;
+}
+
+#cog {
+  /*margin-left: 2px;
+  margin-top: -12px;*/
+  height: 24px;
+  width: 24px;
+  display: inline;
+  position: relative;
+  bottom: 57px;
+}
+
+.postsFollowers {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  box-sizing: border-box;
+  display: inline;
+  margin: 0 40px 30px 0;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  left: 159px;
+}
+
+#quote {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  display: inline;
+  text-align: justify;
+  position: relative;
+  bottom: 80px;
+  left: 320px;
+  font-size: 14px;
+}
+
+.pics {
+  position: relative;
+  display: inline;
+  width: 100%;
+  left: 15px;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+.pics img {
+  margin: 0 10px 10px 5px;
+  height: 255px;
+  width: 255px;
 }
